@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">EventFinder</string>
+    <!-- Используется напрямую в models.PlaceApi  -->
+    <string name="google_maps_api_key">AIzaSyB49OpBXRL_2k8ZyYlSKNev8knFjDf5jpk</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Пароль (optional)</string>
+    <string name="action_sign_in">Войти или зарегистрироваться</string>
+    <string name="action_sign_in_short">Войти</string>
+    <string name="action_sign_out">Выйти</string>
+    <string name="error_invalid_email">Этот email неверный</string>
+    <string name="error_invalid_password">Пароль слишком короткий</string>
+    <string name="error_incorrect_password">Пароль неверный</string>
+    <string name="error_field_required">Эти поля обязательны</string>
+    <string name="resend_verification_email">Выслать повторно письмо для подтверждения</string>
+    <string name="forgot_password">Забыли пароль</string>
+    <string name="register">Регистрация</string>
+    <string name="sign_in">Вход</string>
+    <string name="password">Пароль</string>
+    <string name="gonchar_consulting_logo">Gonchar Consulting Logo</string>
+    <string name="email_registration">Регистрация по электронной почте</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Подтвердить пароль</string>
+
+    <!-- Firestore Strings -->
+    <string name="collection_users">Users</string>
+    <string name="collection_event">Event</string>
+    <string name="collection_chatrooms">Chatrooms</string>
+    <string name="collection_chat_messages">Chat Messages</string>
+    <string name="collection_chatroom_user_list">User List</string>
+    <string name="collection_chatroom_event_list">Event List</string>
+    <string name="collection_user_locations">User Locations</string>
+    <string name="collection_event_locations">Event Locations</string>
+
+    <!-- Intent extras -->
+    <string name="intent_chatroom">intent_chatroom</string>
+    <string name="intent_user_list">intent_user_list</string>
+    <string name="intent_event_list">intent_event_list</string>
+    <string name="intent_user_locations">intent_user_locations</string>
+    <string name="intent_event_locations">intent_event_locations</string>
+    <string name="intent_location">intent_location</string>
+
+    <!-- Service and Broadcasts -->
+    <string name="gps_location">gps_location</string>
+
+
+    <!-- Fragments Names -->
+    <string name="fragment_user_list">User List</string>
+    <string name="fragment_image_list">Image List</string>
+
+    <!-- Other Strings -->
+    <string name="action_create_chatroom">Создать чат</string>
+    <string name="action_leave_chatroom">Покинуть чат</string>
+    <string name="action_chatroom_user_list">Открыть карту</string>
+    <string name="action_profile">Профиль</string>
+    <string name="action_chats">Чаты</string>
+    <string name="action_donate">О программе</string>
+    <string name="ERROR">Error</string>
+
+    <!-- Big description -->
+    <string name="EventFinder">EventFinder</string>
+    <string name="EventFinderDesc">В приложении реализовано добавление мероприятий на карту, поддерживается регистрация пользователей. Также имеются чат комнаты. У каждого чата имеется отдельная карта, все пользователи, которые присоединились к чату, отображаются на карте. Изменения местоположения всех пользователей на карте отбражаются в реальном времени. Пользователь может прокладывть маршрут к другому пользователю или к мероприятию.</string>
+    <string name="Event">Мероприятия</string>
+    <string name="EventDesc">Добавление мероприятий реализованно долгим нажатием на карту и нажатием на кнопку "Плюс". Первоначально в информационном окне отображается имя пользователя и адрес мероприятия. Если не заполнить другие поля мероприятие добавиться на карту но не сохраниться в базе данных и не отобразиться у других пользователей. Чтобы сохранить мероприятие в базу данных нужно сразу заполнить все поля или нажать на описание маркера, затем нажать кнопку "edit description" и заполнить отсутствующие поля.</string>
+
+
+    <string name="somethingWentWrong">Что то пошло не так.</string>
+    <string name="gpsPermission">\"Этому приложению для работы необходим GPS. Вы хотите включить его? \"</string>
+    <string name="map_requests">Вы не можете сделать запрос</string>
+    <string name="EnterChatRoomName">Введите название чата</string>
+    <string name="AnonymousEvent">Событие от Anonymous</string>
+    <string name="EventBy">Событие от </string>
+    <string name="ThisIsYou">Это вы</string>
+    <string name="userAuth">\"Авторизация пользователя: \"</string>
+    <string name="Yes">Да</string>
+    <string name="determineRoute">Проложить дорогу к </string>
+    <string name="eventByAnonymous">Мероприятие от Anonymous</string>
+    <string name="addEvent">Добавить мероприятие</string>
+    <string name="typeEventDescription">Введите описание мероприятия</string>
+    <string name="Cancel">Отменить</string>
+    <string name="Add">добавить</string>
+    <string name="Add_event_on_DataBase">Мероприятие добавлено в базу данных</string>
+    <string name="Add_event_on_DataBase_failed">При добавлении мероприятия в базу данных произошла ошибка.</string>
+    <string name="Empty_field_eventAddress">Поле адрес незаполнено</string>
+    <string name="My_Location">Моё местоположение</string>
+    <string name="unable_to_get_current_location">Невозможно получить текущую локацию</string>
+    <string name="Trip">Маршрут #</string>
+    <string name="Open_GlMaps">Открыть Google Maps?</string>
+    <string name="No">Нет</string>
+    <string name="Couldt_open_map">Не могу открыть карту</string>
+    <string name="Edit_description">Изменить описание</string>
+    <string name="Duration">Длительность: </string>
+    <string name="Event_by">"Мероприятие от "</string>
+    <string name="Passwords_do_not_Match">Пароль введён неверно</string>
+    <string name="You_must_fill_out_all_the_fields">Вы должны заполнить все поля</string>
+    <string name="enter_address_city_or_zip_code">Введите адрес, город или Zip код</string>
+
+</resources>
